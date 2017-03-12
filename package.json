@@ -1,0 +1,22 @@
+{
+  "name": "bluemix-json-resume",
+  "main": "./node_modules/resume-cli/index.js",
+  "description": "Json Resume",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": "4.*"
+  },
+  "scripts": {
+    "start": "node node_modules/resume-cli/index.js serve -t elegant -r public/resume.json -p $VCAP_APP_PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikesimps/bluemix-json-resume"
+  },
+  "dependencies": {
+    "resume-cli": ">=0.4.19"
+  },
+  "author": "Mike Simpson",
+  "license": "Apache-2.0"
+}

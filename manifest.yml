@@ -1,0 +1,5 @@
+---
+applications:
+ - name: michaelcv
+   host: msresume
+   memory: 256M
